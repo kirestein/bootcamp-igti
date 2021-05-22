@@ -25,6 +25,8 @@ switch (operacao) {
     case "potencia":
         resultado = num1 ** num2;
         break;
+    default:
+        resultado = 0;
 }
 
 if (operacao === "soma") {

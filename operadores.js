@@ -54,3 +54,12 @@ console.log("a adição com incremento posterior é " + adicaoIncrementoPosterio
 
 var adicaoIncrementoAnterior = a + ++b;
 console.log("a adição com incremento anterior é " + adicaoIncrementoAnterior);
+
+var c = 10;
+var d = 9;
+
+var subtracaoDecrementoPosterior = c - d--;
+console.log("a subtração com decremento posterior é " + subtracaoDecrementoPosterior);
+
+var adicaoDecrementoAnterior = c - --d;
+console.log("a subtração com decremento anterior é " + adicaoIncrementoAnterior);

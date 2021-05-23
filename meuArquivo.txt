@@ -1,1 +1,2 @@
 Um texto qualquer
+nova linha no texto

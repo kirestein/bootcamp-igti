@@ -1,0 +1,11 @@
+#lampada {
+    display: flex;
+    border-radius: 50%;
+    width: 10rem;
+}
+
+.paragrafo {
+    margin: 2rem 1rem 1.25rem 0.5rem;
+    padding: 0.5rem;
+    
+}

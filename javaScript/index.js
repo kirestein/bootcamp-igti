@@ -9,3 +9,13 @@ setTimeout(function() {
     console.log("passou 2 segundo")
     // document.write("texto qualquer");
 }, 2000);
+
+function clickBotao() {
+    // document.getElementById("paragrafo2").innerHTML = "Texto alterado com sucesso";
+    document.getElementById("paragrafo2").style.display =  "none";
+
+};
+
+function clickBotao2() {
+    document.getElementById("paragrafo2").style.display = "block"
+}

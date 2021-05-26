@@ -2,6 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="/css/style.css">
         <title>Título da Página</title>
     </head>
     <body>
@@ -12,11 +13,11 @@
         <h4>Heading 4</h4>
         <h5>Heading 5</h5>
         <h6>Heading 6</h6>
-        <p>este é um parágrafo</p>
+        <p class="paragrafo">este é um parágrafo</p>
         <br>
         <br>
         <br>
-        <p>este é outroparágrafo</p>
+        <p class="paragrafo">este é outro parágrafo</p>
 
 
         <input type=" text"> Digite um número de 1 a 100
@@ -36,12 +37,21 @@
         <label for="masculino"> Masculino </label><br>
         <input type="radio" name="sexo" id="feminino" value="feminino">
         <label for="feminino"> Feminino </label>
+
+        <br>
+        <button type="button" onclick="clickBotao()">clique aqui</button>
+        <button type="button" onclick="clickBotao2()">clique aqui 2</button>
+        <br>
+
+        <img src="/img/lampada-desligada.jpg" alt="" id="lampada">
+        <br>
+        <button type="button" onclick="ligarLampada()"> Ligar Lâmpada </button>
+        <button type="button" onclick="desligarLampada()">Desligar Lâmpada</button>
+        <br>
     </body>
 
-    <button type="button" onclick="clickBotao()">clique aqui</button>
-        <button type="button" onclick="clickBotao2()">clique aqui 2</button>
-    </body>
+    
 
     <script src="/javaScript/index.js"></script>
->>>>>>> df8db7bcb50c615e5556494aba71c08c9109d31e
+
 </html>

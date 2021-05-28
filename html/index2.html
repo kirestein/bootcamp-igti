@@ -21,7 +21,8 @@
     </button>
     
     <button 
-        type="button" onclick="trocaCor('blue').style.color = 'blue'">
+        type="button" 
+        onclick="document.getElementById('paragrafo1').style .color = 'blue'">
         Trocar cor para azul
     </button>
 
@@ -34,8 +35,9 @@
         p.style.fontWeight = "bold";
         p.style.fontSize = "2rem";
 
-        function trocaCor(cor) {
-            document.getElementById('paragrafo1').style.color = cor;
+        function trocaCor() {
+            var cor = document.getElementById("input-cor").value;
+            // document.getElementById('paragrafo1').style.color = cor;
         }
     </script>
 </body>

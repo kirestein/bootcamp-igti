@@ -38,5 +38,14 @@ header h1 {
     border-radius: 0.5rem;
 }
 
+.botao_calcular {
+    background-color: #0080ff;
+    width: 25%;
+    text-align: center;
+    margin-left: 19.5rem;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
 
 

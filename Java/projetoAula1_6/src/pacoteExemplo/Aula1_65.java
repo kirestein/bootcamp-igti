@@ -7,6 +7,7 @@ public class Aula1_65 {
 		int idade;
 		idade = 36;
 		
+		
 		System.out.print("A minha idade é " + idade);
 
 	}

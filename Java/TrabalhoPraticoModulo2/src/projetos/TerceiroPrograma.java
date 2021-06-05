@@ -19,7 +19,7 @@ public class TerceiroPrograma {
 		notaTotal = nota1 + nota2 + nota3;
 		if (notaTotal >= notaCorte && frequencia >= freqCorte)
 			System.out.println("Aprovado.");
-		else if (notaTotal>= (notaCorte - notaCorte * 0.20) && frequencia >= freqCorte)
+		else if (notaTotal >= (notaCorte - notaCorte * 0.20) && frequencia >= freqCorte)
 			System.out.println("Prova Especial.");
 		else if (notaTotal >= 80)
 			System.out.println("Aprovado direto.");

@@ -1,7 +1,5 @@
 package projetos;
-
 import java.util.Scanner;
-
 public class PrimeiroPrograma {
 
 	public static void main(String[] args) {
@@ -13,7 +11,8 @@ public class PrimeiroPrograma {
 		System.out.println("Digite o valor para a variável n2: ");
 		n2 = entrada.nextDouble();
 		
-		resultado = n1 * n2 % n3;
+		resultado = n1 * n2 / n3;
+		//System.out.printf("As variáveis n1 e n2 tem valor: %.2f e %.2f respecitivamente \n", n1, n2);
 		System.out.printf("O valor total é: %.2f.", resultado);
 
 	}

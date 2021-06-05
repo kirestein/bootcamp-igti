@@ -14,7 +14,7 @@ public class ClasseAula2_7 {
 		//%b é o coringa do boolean
 		//%c é o coringa do char
 		
-		System.out.printf("O %s tem idade igual a %d e a altura igual a %.2f e o "
+		System.out.printf("O %s tem idade igual a %d e a altura igual a %.2f e o \n"
 				+ "fato de ele ser casado é %b", nome, idade, altura, casado);
 		
 		//System.out.println("Idade = " + idade);

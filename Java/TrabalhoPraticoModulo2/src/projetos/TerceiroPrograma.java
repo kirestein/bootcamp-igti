@@ -1,7 +1,6 @@
 package projetos;
 import java.util.Scanner;
 public class TerceiroPrograma {
-
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		double nota1 = 0, nota2 = 0, nota3 = 0, notaTotal = 0, frequencia = 0;

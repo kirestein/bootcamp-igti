@@ -13,6 +13,9 @@ public class ClasseAula2_6 {
 		
 		System.out.println("A variável nome1 tem " + tamanhoDoNome1 + " characteres");
 		System.out.println("A variável nome2 tem " + tamanhoDoNome2 + " characteres");
+		
+		String nome2SemN = nome2.replace('n', '0');
+		System.out.println(nome2SemN);
 
 	}
 

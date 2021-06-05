@@ -14,7 +14,7 @@ public class PrimeiroPrograma {
 		n2 = entrada.nextDouble();
 		
 		resultado = n1 * n2 % n3;
-		System.out.printf("O valor total é: %.2f.", resultado)
+		System.out.printf("O valor total é: %.2f.", resultado);
 
 	}
 

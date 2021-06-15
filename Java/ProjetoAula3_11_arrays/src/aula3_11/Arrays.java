@@ -16,8 +16,6 @@ public class Arrays {
 		total += numeros[i];
 		}
 		
-		
-		
 		System.out.println(total);
 		
 		

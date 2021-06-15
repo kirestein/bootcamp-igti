@@ -12,11 +12,11 @@ public class do_while {
 		System.out.println("Deseja continuar? (s = sim / n = não)");
 		continuar = entrada.nextLine().charAt(0);
 		
-		while (continuar == 's') {
+		/*while (continuar == 's') {
 			System.out.println("Mensagem");
 			System.out.println("Deseja continuar? (s = sim / n = não)");
 			continuar = entrada.nextLine().charAt(0);
-		}
+		}*/
 		do {
 			System.out.println("Mensagem");
 		} while (continuar == 's');
